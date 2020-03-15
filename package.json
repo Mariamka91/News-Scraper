@@ -2,15 +2,16 @@
   "name": "news-scrapper",
   "version": "1.0.0",
   "description": "Web app that lets users view and leave comments on the latest news using express, mongoose, cheerio...",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mariamka91/News-Scrapper.git"
   },
-  "author": "",
+  "author": "Mariam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mariamka91/News-Scrapper/issues"
